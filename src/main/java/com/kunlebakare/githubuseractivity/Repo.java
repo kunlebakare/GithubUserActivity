@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 
 package com.kunlebakare.githubuseractivity;
 
@@ -31,12 +28,15 @@ public class Repo {
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
+        /*StringBuilder sb = new StringBuilder();
         sb.append("Repo{");
         sb.append("id=").append(id);
         sb.append(", name=").append(name);
         sb.append(", url=").append(url);
         sb.append('}');
+        return sb.toString();*/
+        StringBuilder sb = new StringBuilder();
+        sb.append(name).append("/").append(url);
         return sb.toString();
     }
 

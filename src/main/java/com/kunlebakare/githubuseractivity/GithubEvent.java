@@ -1,25 +1,25 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-
 package com.kunlebakare.githubuseractivity;
+
+import com.google.gson.JsonElement;
+import com.kunlebakare.githubuseractivity.payloads.Payload;
 
 /**
  *
  * @author Kunle Bakare
  */
 public class GithubEvent {
+
     private String id;
     private String type;
     private Actor actor;
     private Repo repo;
-    private Payload payload;
+    private JsonElement payload;
+    private Payload eventPayload;
     private boolean isPublic;
     private String created_at;
     private Org org;
 
-    public GithubEvent(){
+    public GithubEvent() {
     }
 
     @Override
@@ -36,6 +36,46 @@ public class GithubEvent {
         sb.append(", org=").append(org);
         sb.append('}');
         return sb.toString();
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public Actor getActor() {
+        return actor;
+    }
+
+    public Repo getRepo() {
+        return repo;
+    }
+
+    public JsonElement getPayload() {
+        return payload;
+    }
+
+    public Payload getEventPayload() {
+        return this.eventPayload;
+    }
+
+    public boolean isPublic() {
+        return isPublic;
+    }
+
+    public String getCreated_at() {
+        return created_at;
+    }
+
+    public Org getOrg() {
+        return org;
+    }
+
+    public void setEventPayload(Payload payload) {
+        this.eventPayload = payload;
     }
 
 }

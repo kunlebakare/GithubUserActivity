@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.kunlebakare.githubuseractivity;
 
 /**
@@ -27,6 +23,7 @@ public class GithubUserActivity {
             System.out.println(e.toString());
         }*/
 
-        System.out.println(GithubService.getEventsAsArray("userActivity")[0]);
+        
+        GithubService.reportEvents(GithubService.getEvents());
     }
 }

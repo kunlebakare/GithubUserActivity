@@ -1,0 +1,581 @@
+[
+  {
+    "id": "12266123802",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1247454758,
+      "name": "kunlebakare/GithubUserActivity",
+      "url": "https://api.github.com/repos/kunlebakare/GithubUserActivity"
+    },
+    "payload": {
+      "ref": "main",
+      "ref_type": "branch",
+      "full_ref": "refs/heads/main",
+      "master_branch": "main",
+      "description": null,
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-23T10:42:32Z"
+  },
+  {
+    "id": "12226393224",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34516632226,
+      "ref": "refs/heads/main",
+      "head": "1f24d94901e7f958b229a0c92d9766c437ad709c",
+      "before": "41eedaec6cb460b66eb9f0ab9fce4a9334279bbe"
+    },
+    "public": true,
+    "created_at": "2026-05-22T11:21:26Z"
+  },
+  {
+    "id": "9783906627",
+    "type": "ReleaseEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "action": "published",
+      "release": {
+        "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI/releases/327793338",
+        "assets_url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI/releases/327793338/assets",
+        "upload_url": "https://uploads.github.com/repos/kunlebakare/TaskTrackerCLI/releases/327793338/assets{?name,label}",
+        "html_url": "https://github.com/kunlebakare/TaskTrackerCLI/releases/tag/v.1.0.0",
+        "id": 327793338,
+        "author": {
+          "login": "kunlebakare",
+          "id": 49395667,
+          "node_id": "MDQ6VXNlcjQ5Mzk1NjY3",
+          "avatar_url": "https://avatars.githubusercontent.com/u/49395667?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/kunlebakare",
+          "html_url": "https://github.com/kunlebakare",
+          "followers_url": "https://api.github.com/users/kunlebakare/followers",
+          "following_url": "https://api.github.com/users/kunlebakare/following{/other_user}",
+          "gists_url": "https://api.github.com/users/kunlebakare/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/kunlebakare/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/kunlebakare/subscriptions",
+          "organizations_url": "https://api.github.com/users/kunlebakare/orgs",
+          "repos_url": "https://api.github.com/users/kunlebakare/repos",
+          "events_url": "https://api.github.com/users/kunlebakare/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/kunlebakare/received_events",
+          "type": "User",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "node_id": "RE_kwDOSR78AM4Tibq6",
+        "tag_name": "v.1.0.0",
+        "target_commitish": "main",
+        "name": "First Release",
+        "draft": false,
+        "immutable": false,
+        "prerelease": false,
+        "created_at": "2026-05-22T11:04:06Z",
+        "updated_at": "2026-05-22T11:08:13Z",
+        "published_at": "2026-05-22T11:06:02Z",
+        "assets": [
+          {
+            "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI/releases/assets/427014059",
+            "id": 427014059,
+            "node_id": "RA_kwDOSR78AM4Zc7er",
+            "name": "task-cli",
+            "label": "",
+            "uploader": {
+              "login": "github-actions[bot]",
+              "id": 41898282,
+              "node_id": "MDM6Qm90NDE4OTgyODI=",
+              "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+              "html_url": "https://github.com/apps/github-actions",
+              "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+              "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+              "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+              "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+              "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+              "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+              "type": "Bot",
+              "user_view_type": "public",
+              "site_admin": false
+            },
+            "content_type": "application/octet-stream",
+            "state": "uploaded",
+            "size": 14928280,
+            "digest": "sha256:93daf778632020229c9e7fbc63d6c82d4d9847346b1b733d49f5ac4fc74e3988",
+            "download_count": 0,
+            "created_at": "2026-05-22T11:07:54Z",
+            "updated_at": "2026-05-22T11:07:56Z",
+            "browser_download_url": "https://github.com/kunlebakare/TaskTrackerCLI/releases/download/v.1.0.0/task-cli"
+          },
+          {
+            "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI/releases/assets/427014249",
+            "id": 427014249,
+            "node_id": "RA_kwDOSR78AM4Zc7hp",
+            "name": "task-cli.exe",
+            "label": "",
+            "uploader": {
+              "login": "github-actions[bot]",
+              "id": 41898282,
+              "node_id": "MDM6Qm90NDE4OTgyODI=",
+              "avatar_url": "https://avatars.githubusercontent.com/in/15368?v=4",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/github-actions%5Bbot%5D",
+              "html_url": "https://github.com/apps/github-actions",
+              "followers_url": "https://api.github.com/users/github-actions%5Bbot%5D/followers",
+              "following_url": "https://api.github.com/users/github-actions%5Bbot%5D/following{/other_user}",
+              "gists_url": "https://api.github.com/users/github-actions%5Bbot%5D/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/github-actions%5Bbot%5D/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/github-actions%5Bbot%5D/subscriptions",
+              "organizations_url": "https://api.github.com/users/github-actions%5Bbot%5D/orgs",
+              "repos_url": "https://api.github.com/users/github-actions%5Bbot%5D/repos",
+              "events_url": "https://api.github.com/users/github-actions%5Bbot%5D/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/github-actions%5Bbot%5D/received_events",
+              "type": "Bot",
+              "user_view_type": "public",
+              "site_admin": false
+            },
+            "content_type": "application/x-msdos-program",
+            "state": "uploaded",
+            "size": 14262272,
+            "digest": "sha256:5c1a9284e9c385c8aee121d78cc78ce8682b62ae92d487088fd347688f7b2b33",
+            "download_count": 1,
+            "created_at": "2026-05-22T11:08:12Z",
+            "updated_at": "2026-05-22T11:08:13Z",
+            "browser_download_url": "https://github.com/kunlebakare/TaskTrackerCLI/releases/download/v.1.0.0/task-cli.exe"
+          }
+        ],
+        "tarball_url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI/tarball/v.1.0.0",
+        "zipball_url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI/zipball/v.1.0.0",
+        "body": "",
+        "short_description_html": "",
+        "is_short_description_html_truncated": false
+      }
+    },
+    "public": true,
+    "created_at": "2026-05-22T11:06:02Z"
+  },
+  {
+    "id": "12225752760",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "ref": "v1.0.0",
+      "ref_type": "tag",
+      "full_ref": "refs/tags/v1.0.0",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-22T11:05:01Z"
+  },
+  {
+    "id": "12225720203",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34515959136,
+      "ref": "refs/heads/main",
+      "head": "41eedaec6cb460b66eb9f0ab9fce4a9334279bbe",
+      "before": "eafea70caa7109b5d4361b66a5ff0e5d39234ad0"
+    },
+    "public": true,
+    "created_at": "2026-05-22T11:04:11Z"
+  },
+  {
+    "id": "12225243630",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "ref": "v1.0.0",
+      "ref_type": "tag",
+      "full_ref": "refs/tags/v1.0.0",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-22T10:52:09Z"
+  },
+  {
+    "id": "12225040423",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34515279225,
+      "ref": "refs/heads/main",
+      "head": "eafea70caa7109b5d4361b66a5ff0e5d39234ad0",
+      "before": "fa9ebcfc020a335f495b34bcc8d0693da6de19d1"
+    },
+    "public": true,
+    "created_at": "2026-05-22T10:46:57Z"
+  },
+  {
+    "id": "12224551687",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "ref": "v1.0.0",
+      "ref_type": "tag",
+      "full_ref": "refs/tags/v1.0.0",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2026-05-22T10:34:19Z"
+  },
+  {
+    "id": "12224257156",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34514496196,
+      "ref": "refs/heads/main",
+      "head": "fa9ebcfc020a335f495b34bcc8d0693da6de19d1",
+      "before": "9a964c7ae54d16d06cbb225bac7680e4344da61a"
+    },
+    "public": true,
+    "created_at": "2026-05-22T10:26:48Z"
+  },
+  {
+    "id": "12224086743",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34514325700,
+      "ref": "refs/heads/main",
+      "head": "9a964c7ae54d16d06cbb225bac7680e4344da61a",
+      "before": "1ef181137597e65969c239f74ce5bc65aa91fb7f"
+    },
+    "public": true,
+    "created_at": "2026-05-22T10:22:17Z"
+  },
+  {
+    "id": "12223434124",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34513673352,
+      "ref": "refs/heads/main",
+      "head": "1ef181137597e65969c239f74ce5bc65aa91fb7f",
+      "before": "c9f00572384c9f86af6d10cd06d6d90171254162"
+    },
+    "public": true,
+    "created_at": "2026-05-22T10:05:31Z"
+  },
+  {
+    "id": "12222730793",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34512970304,
+      "ref": "refs/heads/main",
+      "head": "c9f00572384c9f86af6d10cd06d6d90171254162",
+      "before": "9b3fd04d299d6038250d0e2965b2e60973c7bb57"
+    },
+    "public": true,
+    "created_at": "2026-05-22T09:48:39Z"
+  },
+  {
+    "id": "12135996067",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34426452542,
+      "ref": "refs/heads/main",
+      "head": "9b3fd04d299d6038250d0e2965b2e60973c7bb57",
+      "before": "ce36506125d34231f04310e838814602d6ccd4b2"
+    },
+    "public": true,
+    "created_at": "2026-05-20T17:18:49Z"
+  },
+  {
+    "id": "12135376965",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34425835397,
+      "ref": "refs/heads/main",
+      "head": "ce36506125d34231f04310e838814602d6ccd4b2",
+      "before": "959509fdf2101864399673277f6a8f2a9b0c2673"
+    },
+    "public": true,
+    "created_at": "2026-05-20T17:04:13Z"
+  },
+  {
+    "id": "12027110782",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34317708629,
+      "ref": "refs/heads/main",
+      "head": "959509fdf2101864399673277f6a8f2a9b0c2673",
+      "before": "98c583ffab94fb990b4aba75e52f906aa85188ae"
+    },
+    "public": true,
+    "created_at": "2026-05-18T17:57:17Z"
+  },
+  {
+    "id": "12013116065",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34303730367,
+      "ref": "refs/heads/main",
+      "head": "98c583ffab94fb990b4aba75e52f906aa85188ae",
+      "before": "0ba3db0a33c4203322fa910b1323f9b9ad1e2b73"
+    },
+    "public": true,
+    "created_at": "2026-05-18T12:52:36Z"
+  },
+  {
+    "id": "11948520591",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34239133528,
+      "ref": "refs/heads/main",
+      "head": "0ba3db0a33c4203322fa910b1323f9b9ad1e2b73",
+      "before": "ab9086ef6cda5b6191506606676029573e0f78ea"
+    },
+    "public": true,
+    "created_at": "2026-05-16T17:11:27Z"
+  },
+  {
+    "id": "11946662106",
+    "type": "PushEvent",
+    "actor": {
+      "id": 49395667,
+      "login": "kunlebakare",
+      "display_login": "kunlebakare",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/kunlebakare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/49395667?"
+    },
+    "repo": {
+      "id": 1226767360,
+      "name": "kunlebakare/TaskTrackerCLI",
+      "url": "https://api.github.com/repos/kunlebakare/TaskTrackerCLI"
+    },
+    "payload": {
+      "repository_id": 1226767360,
+      "push_id": 34237271870,
+      "ref": "refs/heads/main",
+      "head": "ab9086ef6cda5b6191506606676029573e0f78ea",
+      "before": "b916d9979be3440525adab41267fafebfe15b1b1"
+    },
+    "public": true,
+    "created_at": "2026-05-16T15:55:52Z"
+  }
+]
